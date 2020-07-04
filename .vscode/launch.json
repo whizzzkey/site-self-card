@@ -16,7 +16,7 @@
             "type": "browser-preview",
             "request": "launch",
             "name": "Browser Preview: Launch",
-            "url": "F:\\Programming\\WokSpace\\Web\\SkillFactory Course\\Сайт-визитка\\site-self-card\\index.html"
+            "url": "F:\\Coding\\WorkSpace\\Web\\FrontEndCourse\\SiteSelfCard\\site-self-card\\index.html"
         }
     ]
 }

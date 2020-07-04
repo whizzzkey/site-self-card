@@ -1,0 +1,60 @@
+body{
+  background-color: #F8FFFF;
+}
+
+.header{
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid brown;
+  background-color: #00032F;
+}
+
+.header-link{
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-link:hover{
+  background-color: chocolate;
+} 
+
+.title{
+  color: gray;
+  text-align: center;
+}
+
+.my-img-wrapper{
+  background-color: #EDEDDA;
+  
+  padding: 25px;
+  margin-left: 80px;
+  width: 800px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.my-img{
+  border: 1px solid gray;
+  height: 500px; 
+  width: 500px;
+  alt: Моё фото; 
+}
+
+.section{
+  border-left: 5px solid indigo;
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+.main{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.footer{
+  border-top: 1px solid brown;
+}
