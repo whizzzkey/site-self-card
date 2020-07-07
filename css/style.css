@@ -2,6 +2,11 @@ body{
   background-color: #F8FFFF;
 }
 
+.main{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .header{
   padding: 20px;
   text-align: center;
@@ -14,6 +19,7 @@ body{
   padding: 5px;
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: color .2s;
 }
 
 .header-link:hover{
@@ -27,11 +33,7 @@ body{
 
 .my-img-wrapper{
   background-color: #EDEDDA;
-  
   padding: 25px;
-  margin-left: 80px;
-  width: 800px;
-  margin-right: 80px;
   text-align: center;
 }
 
@@ -49,11 +51,9 @@ body{
   margin-left: 15px;
 }
 
-.main{
-  padding-left: 40px;
-  padding-right: 40px;
+.section-content{
+  padding-left: 20px;
 }
-
 
 .footer{
   border-top: 1px solid brown;

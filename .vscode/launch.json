@@ -16,7 +16,7 @@
             "type": "browser-preview",
             "request": "launch",
             "name": "Browser Preview: Launch",
-            "url": "F:\\Coding\\WorkSpace\\Web\\FrontEndCourse\\SiteSelfCard\\site-self-card\\index.html"
+            "url": "D:\\!Eugene\\Programming\\Web\\SkillFactory\\HtmlSiteAboutMe\\site-self-card\\index.html"
         }
     ]
 }
