@@ -1,5 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap&subset=cyrillic');
+
+
+@font-face {
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-family: "OpenSans Regular";
+}
+
+@font-face {
+  src: url('../fonts/OpenSans-Bold.ttf');
+  font-family: "OpenSans Bold";
+}
+
+@font-face {
+  src: url('../fonts/OpenSans-Italic.ttf');
+  font-family: "OpenSans Italic";
+}
+
+
 body{
   background-color: #F8FFFF;
+  font-family: 'Open Sans','OpenSans Regular', Arial, Helvetica, sans-serif;
 }
 
 .main{
