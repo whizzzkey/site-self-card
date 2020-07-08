@@ -83,19 +83,19 @@ body{
 }
 
 #img_telegram{
-  content: url("/images/icons/ic_telegram.svg");
+  content: url("/icons/ic_telegram.svg");
 }
 
 #img_phone{
-  content: url("/images/icons/ic_phone.svg");
+  content: url("/icons/ic_phone.svg");
 }
 
 #img_whatsapp{
-  content: url("/images/icons/ic_whatsapp.svg");
+  content: url("/icons/ic_whatsapp.svg");
 }
 
 #img_email{
-  content: url("/images/icons/ic_mail.svg");
+  content: url("/icons/ic_mail.svg");
 }
 
 .my-description{
