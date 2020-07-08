@@ -26,6 +26,8 @@ body{
 .main{
   padding-left: 40px;
   padding-right: 40px;
+  display: flex;
+  flex-direction: row;
 }
 
 .header{
@@ -41,28 +43,69 @@ body{
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: color .2s;
+  font-size: large;
 }
 
 .header-link:hover{
   background-color: chocolate;
 } 
 
-.title{
-  color: gray;
-  text-align: center;
+.my-profile{
+  margin-top: 50px;
 }
 
-.my-img-wrapper{
+.img-container{
   background-color: #EDEDDA;
   padding: 25px;
   text-align: center;
 }
 
-.my-img{
+.my-profile__my-img{
   border: 1px solid gray;
   height: 500px; 
   width: 500px;
   alt: Моё фото; 
+}
+
+.contacts-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contacts-item img{
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+#img_telegram{
+  content: url("/images/icons/ic_telegram.svg");
+}
+
+#img_phone{
+  content: url("/images/icons/ic_phone.svg");
+}
+
+#img_whatsapp{
+  content: url("/images/icons/ic_whatsapp.svg");
+}
+
+#img_email{
+  content: url("/images/icons/ic_mail.svg");
+}
+
+.my-description{
+  margin-top: 30px;
+}
+
+.title{
+  color: gray;
+  text-align: left;
+  margin-left: 15px;
 }
 
 .section{
@@ -70,12 +113,21 @@ body{
   text-align: left;
   padding-left: 10px;
   margin-left: 15px;
+  font-size: 20px;
 }
 
 .section-content{
   padding-left: 20px;
+  font-size: 18px;
 }
 
 .footer{
   border-top: 1px solid brown;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__link{
+  font-size: 20px;
+  color: brown;
 }
